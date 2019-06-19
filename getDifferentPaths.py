@@ -5,6 +5,7 @@
 #sub_problem: opt(i,j,k) = number of diferrent paths from i to j with length = k
 #V:list of vertexes
 #E:list of edges
+#opt:list that contains list which contain lists too ([[[3,4][10,1]],[[1,2],[5,8]]])
 def getDifferentPaths(V,E,s,t,K):
  #opt(i,j,1) = 0 if there is not the (i,j) edge else 1
  for i in range(len(V)):
