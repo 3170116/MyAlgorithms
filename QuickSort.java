@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 
-class Ex2 {
+class QuickSort {
 	private static ArrayList<Integer> numbers;
 
 	private void quickSort(int p, int q) {
@@ -62,7 +62,7 @@ class Ex2 {
 			return;
 		}
 		
-		Ex2 ex = new Ex2();
+		QuickSort ex = new QuickSort();
 		numbers = (ArrayList<Integer>) Utilities.convertFileSequenceToList(file);
 
 		ex.quickSort(0,numbers.size()-1);
