@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 
-class Ex1 {
+class MostRightAndLeftElement {
 	private static ArrayList<Integer> numbers;
 
 	private int findMostLeft(int x) {
@@ -69,7 +69,7 @@ class Ex1 {
 			return;
 		}
 		
-		Ex1 ex = new Ex1();
+		MostRightAndLeftElement ex = new MostRightAndLeftElement();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter an integer: ");
 		int x = sc.nextInt();
